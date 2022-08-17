@@ -28,3 +28,11 @@ const posts = [
     }
 ]
 
+let avatar = document.getElementById('avatar')
+let likes = document.getElementById('likes')
+let number = parseFloat(likes.innerHTML)
+
+avatar.addEventListener('click', function() {
+   number++  
+   likes.textContent = number
+})
