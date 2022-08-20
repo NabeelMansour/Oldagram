@@ -32,6 +32,7 @@ const posts = [
 let avatar = document.getElementById('avatar');
 let likes = document.getElementById('likes');
 let heart = document.getElementById('heart');
+let dm = document.getElementById('dm');
 let number = parseFloat(likes.innerHTML);
 
 avatar.addEventListener('click', function () {
@@ -40,6 +41,7 @@ avatar.addEventListener('click', function () {
 });
 
 heart.addEventListener('click', function () {
+  heart.textContent = dm;
   number++;
   likes.textContent = number;
 });

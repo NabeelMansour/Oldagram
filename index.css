@@ -6,7 +6,7 @@ body {
 
 .container {
   width: 375px;
-  margin: 0 auto;
+  margin: 100px auto;
   font-family: 'Source Sans Pro', sans-serif;
   border: 5px solid #000;
   border-radius: 20px;
